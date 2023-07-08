@@ -112,13 +112,10 @@ ul li {
   margin-top: 20px;
 }
 .watch {
-  background-image: url("../images/watch.png"), url("../images/gradient3.png"),url('../images/gradient2.png');
-  background-position:center,center,center;
+  background-image: url("../images/watch.png");
+  background-position: center;
   background-repeat: no-repeat;
-  backface-visibility: visible;
-  background-size: auto;
-  /* height: 200px; */
-  z-index: 1;
+  border-radius: 5px;
 }
 .watch-container {
   margin-left: 20%;
@@ -127,4 +124,53 @@ ul li {
 .watch-heading {
   color: #fff;
   font-size: 40px;
+}
+.watch button {
+  height: 50px;
+  margin-bottom: 10px;
+}
+footer {
+  display: flex;
+  background-color: #151414;
+  justify-content: space-around;
+  padding: 40px;
+}
+.f-heading {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+label {
+  color: #fff;
+}
+footer p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.para {
+  margin-top: 10px;
+  gap: 5px;
+}
+.s-heading {
+  color: #fff;
+}
+input {
+  background-color: #000;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 10px 0px 10px 0px;
+}
+.subcribe button {
+  background-color: #fff;
+  margin-top: 20px;
+  height: 50px;
+  width: 112px;
+  border-radius: 10px;
+ color: red;
+}
+.subcribe input {
+  margin-top: 10px;
 }
